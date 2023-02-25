@@ -1,0 +1,61 @@
+.hub__workspace {
+  width: 100%;
+}
+.hub__workspace-content {
+  height: 100%;
+}
+.hub__workspace_text {
+  margin: 1rem 0;
+}
+
+.hub__workspace_text h1 {
+  font-family: var(--font-main);
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  color: #229DA0;
+  max-width: 400px;
+}
+.hub__workspace_text hr {
+  border: 2px dashed #73BFC1;
+  width: 600px;
+  margin: 10px 0;
+}
+
+.hub__workspace_text p {
+  font-family: var(--font-main);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  max-width: 600px;
+  color: #605F5D;
+}
+
+
+.hub__workspace-items {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+}
+
+.hub__workspace-items p {
+  background: #73BFC1;
+  border-radius: 18px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  padding: 10px;
+  width: 50%;
+  font-family: var(--font-sub);
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.vm{
+  position: relative;
+  top: -10%;
+  text-align: center;
+}

@@ -1,0 +1,89 @@
+.hub__header {
+  background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(34, 157, 160, 0.54) 30%), url('../../assets/hero.png') no-repeat;
+  position: relative;
+  height: 150vh;
+}
+
+.hub__header-content1_img {
+  position: relative;
+  margin-top: 5rem;
+}
+
+.hub__header-content1_img img {
+  height: auto;
+  width: 50%;
+
+}
+.hub__header-content1 h1 {
+  font-family: var(--font-main);
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 67px;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  left: 157px;
+  top: 320px;
+}
+.hub__header-content2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.hub__header-text {
+  margin-left: 50px;
+}
+
+.hub__header-text p {
+  max-width: 500px;
+  font-family: var(--font-main);
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  color: #E8E5E5;
+  margin-bottom: 20px;
+  padding: .5rem;
+}
+.hub__header-text img {
+  width: 50%;
+  height: auto;
+  margin-left: 40px;
+  
+}
+.hub__header-content-search img {
+  width: 90%;
+  height: auto;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .hub__header {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .hub__header-content1 h1{
+    top: 250px;
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .hub__header-content2 {
+    display: block;
+  }
+
+  .hub__header-text img {
+    width: 30%;
+  }
+
+  .hub__header-content-search img {
+    width: 70%;
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  
+}
